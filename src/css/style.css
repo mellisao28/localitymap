@@ -1,0 +1,120 @@
+body {
+    font-size: 14px;
+}
+
+.desc {
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#wrap {
+    position: relative;
+}
+
+.map_canvas {
+    width: 100%;
+    height: 400px;
+}
+
+.product-head h1 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.product-head {
+    font-size: 14px;
+    padding: 4px;
+    background-color: #ccc;
+    width: 235px;
+}
+
+.filterform input {
+    font-size: 15px;
+    padding: 3px;
+    border: 1px solid #999;
+}
+
+li {
+    padding: 5px;
+    margin: 3px;
+    list-style: none;
+    width: 230px;
+    border-top: 1px solid #ccc;
+}
+
+li a {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+li:hover {
+    color: #fff;
+    background-color: #ccc;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.yellow {
+    color: #ff0;
+    autoflow;
+}
+
+.purple {
+    color: #93f;
+}
+
+.blue {
+    color: #36c;
+}
+
+.green {
+    color: #0c0;
+}
+
+.red {
+    color: #ff4d4d;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-thin {
+    font-weight: 60px;
+    color: #999;
+}
+
+.title-super {
+    font-size: 4vw;
+}
+
+@media screen and (max-width: 550px) {
+    .desc {
+        font-size: 13px;
+    }
+
+    .title-logo {
+        font-size: 14px;
+        color: #fc0;
+    }
+
+    .legend {
+        visibility: hidden;
+    };
+}
+
+@media screen and (min-width: 551px) {
+    .desc {
+        font-size: 16px;
+    }
+
+    .title-logo {
+        font-size: 24px;
+        color: #fc0;
+    };
+}
