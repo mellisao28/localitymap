@@ -215,6 +215,8 @@ var ViewModel = function() {
 
 
     //This function is used to get the summary / leading paragraphs / section 0 out of Wikipedia articlies 
+	//Wikipedia function is forked from http://stackoverflow.com/questions/8555320/is-there-a-clean-wikipedia-api-just-for-retrieve-content-summary
+	
     function loadWiki(clickedMarker) {
         var $wikiElem = $('#wikipedia');
         $wikiElem.text("");
@@ -261,6 +263,7 @@ var ViewModel = function() {
     }
 
     // This function is used to filter location based on user's input
+	// Filter function is adapted from http://kilianvalkhof.com/2010/javascript/how-to-build-a-fast-simple-list-filter-with-jquery/
     (function($) {
         // custom css expression for a case-insensitive contains()
         jQuery.expr[':'].Contains = function(a, i, m) {
