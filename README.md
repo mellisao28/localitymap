@@ -17,7 +17,7 @@ Feature:
 
 How to run
 -----------
-Click on index.html or visit my GitHub page ( https://github.com/mellisao28/localitymap) and enjoy the app.
+Click on index.html or visit my GitHub page (http://mellisao28.github.io/localitymap/dist/index.html) and enjoy the app.
 
 Support
 -------
